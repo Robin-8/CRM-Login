@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3001;
 // ✅ Define CORS options once
 const corsOptions = {
   origin: [
-    "http://localhost:5173",
+    "http://localhost:5173"||
     "https://your-frontend-url.vercel.app"
   ],
   credentials: true,

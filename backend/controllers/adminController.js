@@ -54,6 +54,7 @@ const createAdmin = async (req, res) => {
       name,
       email,
       password: hashedPassword,
+      confirmPassword
     });
 
     // Generate token
